@@ -8,7 +8,7 @@ namespace Tyuiu.MazurkevichVS.Sprint3.Task1.V25.Lib
             double multseries = 1;
             while (startValue <= stopValue)
             {
-                multseries *= ((Math.Pow(value, startValue) - 1/4) * Math.Cos(5));
+                multseries *= ((Math.Pow(value, startValue) - 0.25) * Math.Cos(5));
                 startValue++;
             }
             return Math.Round(multseries, 3);
