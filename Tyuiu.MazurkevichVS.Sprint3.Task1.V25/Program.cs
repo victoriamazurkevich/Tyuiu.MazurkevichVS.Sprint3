@@ -4,7 +4,7 @@ Console.WriteLine("*************************************************************
 Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ                                                         *");
 Console.WriteLine("***************************************************************************");
 
-int value = 5;
+int value = 2;
 int startvalue = 1;
 int stopvalue = 6;
 Console.WriteLine("Переменная X: " + value);
