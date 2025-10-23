@@ -6,7 +6,7 @@ Console.WriteLine("*************************************************************
 
 int value = 5;
 int startvalue = 1;
-int stopvalue = 10;
+int stopvalue = 6;
 Console.WriteLine("Переменная X: " + value);
 Console.WriteLine("Старт шага: " + startvalue);
 Console.WriteLine("Конец шага: " + stopvalue);
