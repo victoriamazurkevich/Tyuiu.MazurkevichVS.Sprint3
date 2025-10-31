@@ -10,7 +10,7 @@ namespace Tyuiu.MazurkevichVS.Sprint3.Task5.V28.Lib
             {
                 for (int j = startValue2; j <= stopValue2; j++)
                 {
-                    sumseries += (Math.Pow(startValue2, x) / Math.Sin(startValue2));
+                    sumseries += (Math.Pow(j, x) / Math.Sin(j));
 
                 }
             }

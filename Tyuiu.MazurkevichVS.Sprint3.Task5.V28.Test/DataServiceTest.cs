@@ -14,7 +14,7 @@ namespace Tyuiu.MazurkevichVS.Sprint3.Task5.V28.Test
             int stopValue2 = 12;
             int stopValue1 = 3;
             double sumseries = ds.GetSumSumSeries(x, startValue1, startValue2, stopValue1, stopValue2);
-            double expected = 42.782;
+            double expected = -1032.182;
             Assert.AreEqual(expected, sumseries);
         }
     }
