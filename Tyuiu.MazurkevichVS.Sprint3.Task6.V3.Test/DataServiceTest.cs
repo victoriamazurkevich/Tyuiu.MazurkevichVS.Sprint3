@@ -12,7 +12,7 @@ namespace Tyuiu.MazurkevichVS.Sprint3.Task6.V3.Test
             int stopValue = 19;
             int res = ds.GetSumTheDivisors(startValue, stopValue);
             int expected = 121;
-            Assert.AreEqual(121, res);
+            Assert.AreEqual(expected, res);
         }
     }
 }
